@@ -1,0 +1,82 @@
+{
+  "components": {
+    "App.jsx": {
+      "attributes": [
+        "children"
+      ],
+      "props": {
+        "children": {
+          "type": {
+            "name": "object"
+          },
+          "required": false,
+          "description": ""
+        }
+      }
+    },
+    "Icon.jsx": {
+      "attributes": [
+        "name"
+      ],
+      "props": {
+        "name": {
+          "type": {
+            "name": "string"
+          },
+          "required": true,
+          "description": ""
+        }
+      }
+    },
+    "NavBar.jsx": {
+      "attributes": [
+        "colorScheme"
+      ],
+      "props": {
+        "colorScheme": {
+          "type": {
+            "name": "enum",
+            "value": [
+              {
+                "value": "'dark'",
+                "computed": false
+              },
+              {
+                "value": "'light'",
+                "computed": false
+              }
+            ]
+          },
+          "required": true,
+          "description": "",
+          "defaultValue": {
+            "value": "'dark'",
+            "computed": false
+          }
+        }
+      }
+    },
+    "NumberTable.jsx": {
+      "attributes": [
+        "numbers",
+        "onClick"
+      ],
+      "props": {
+        "numbers": {
+          "type": {
+            "name": "array"
+          },
+          "required": true,
+          "description": ""
+        },
+        "onClick": {
+          "type": {
+            "name": "func"
+          },
+          "required": true,
+          "description": ""
+        }
+      }
+    }
+  }
+}
